@@ -1,0 +1,2 @@
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+ambiente\scripts\activate
