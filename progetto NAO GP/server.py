@@ -4,12 +4,14 @@ import paho.mqtt.client as mqtt
 import oll
 
 # Configurazione MQTT
-MQTT_BROKER = "broker.emqx.io"  # Cambia se usi un altro broker
+# MQTT_BROKER = "broker.emqx.io"  # Cambia se usi un altro broker
+MQTT_BROKER = "localhost"  # Cambia se usi un altro broker
 MQTT_PORT = 1883
 MQTT_TOPIC = "checkpoint"
 
 # Configurazione server socket
-SERVER_HOST = "192.168.1.17"
+#SERVER_HOST = "192.168.1.17"
+SERVER_HOST = "localhost"
 SERVER_PORT = 6969
 clients = []  # Lista dei client connessi
 
